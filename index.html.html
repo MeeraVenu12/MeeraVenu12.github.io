@@ -1,0 +1,933 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Meera Venu | Digital Marketing · Operations · HR Professional</title>
+<meta name="description" content="Meera Venu — Digital Marketing, Operations & HR Professional based in Trivandrum. Google Ads Certified. Meta Business Suite. CRM Implementation. Startup Specialist.">
+<meta name="keywords" content="Meera Venu, Digital Marketing, Operations Manager, HR Professional, Talent Acquisition, Meta Ads, Google Ads, CRM, Freshsales, Trivandrum, Bangalore, PGDM">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<style>
+:root {
+  --ink: #1C2B3A;
+  --ink2: #243342;
+  --ink3: #2E3F50;
+  --rose: #7B9E87;
+  --rose2: #9BB8A5;
+  --rose-pale: #EEF4F0;
+  --rose-mid: #C8DDD0;
+  --sand: #FAF8F5;
+  --sand2: #E8DDD4;
+  --white: #FFFFFF;
+  --text: #2C3A47;
+  --muted: #7A8C99;
+  --light: #AABBC6;
+  --border: rgba(123,158,135,0.2);
+  --border2: rgba(28,43,58,0.08);
+}
+*{margin:0;padding:0;box-sizing:border-box;}
+html{scroll-behavior:smooth;}
+body{font-family:'Outfit',sans-serif;background:var(--sand);color:var(--text);overflow-x:hidden;}
+
+/* ── SCROLLBAR ── */
+::-webkit-scrollbar{width:4px;}
+::-webkit-scrollbar-track{background:#1C2B3A;}
+::-webkit-scrollbar-thumb{background:var(--rose);}
+
+/* ── NAV ── */
+nav{
+  position:fixed;top:0;left:0;right:0;z-index:200;
+  background:rgba(13,13,13,0.96);
+  backdrop-filter:blur(20px);
+  padding:0 3rem;height:64px;
+  display:flex;justify-content:space-between;align-items:center;
+  border-bottom:1px solid rgba(123,158,135,0.15);
+}
+.nav-logo{
+  font-family:'Playfair Display',serif;
+  font-size:1.25rem;color:#fff;letter-spacing:0.03em;
+}
+.nav-logo span{color:var(--rose2);font-style:italic;}
+.nav-links{display:flex;gap:2.5rem;list-style:none;}
+.nav-links a{
+  color:rgba(255,255,255,0.55);text-decoration:none;
+  font-size:0.75rem;letter-spacing:0.12em;text-transform:uppercase;
+  font-weight:500;transition:color 0.25s;
+}
+.nav-links a:hover{color:var(--rose2);}
+.nav-cta{
+  background:var(--rose);color:#fff;
+  padding:0.45rem 1.2rem;font-size:0.75rem;
+  letter-spacing:0.1em;text-transform:uppercase;
+  font-weight:500;text-decoration:none;
+  transition:background 0.25s;border:none;
+}
+.nav-cta:hover{background:var(--rose2);}
+
+/* ── HERO ── */
+.hero{
+  min-height:100vh;
+  background:var(--ink);
+  display:flex;align-items:center;
+  position:relative;overflow:hidden;
+  padding:7rem 3rem 5rem;
+}
+.hero-grid-bg{
+  position:absolute;inset:0;
+  background-image:
+    linear-gradient(rgba(123,158,135,0.05) 1px,transparent 1px),
+    linear-gradient(90deg,rgba(123,158,135,0.05) 1px,transparent 1px);
+  background-size:80px 80px;
+}
+.hero-glow{
+  position:absolute;
+  top:-20%;right:-10%;
+  width:600px;height:600px;
+  background:radial-gradient(circle,rgba(123,158,135,0.15) 0%,transparent 70%);
+  pointer-events:none;
+}
+.hero-glow2{
+  position:absolute;
+  bottom:-30%;left:-5%;
+  width:400px;height:400px;
+  background:radial-gradient(circle,rgba(155,184,165,0.08) 0%,transparent 70%);
+  pointer-events:none;
+}
+.hero-inner{
+  max-width:1200px;margin:0 auto;width:100%;
+  display:grid;grid-template-columns:1.1fr 0.9fr;
+  gap:5rem;align-items:center;position:relative;z-index:1;
+}
+.hero-eyebrow{
+  display:inline-flex;align-items:center;gap:0.6rem;
+  font-size:0.7rem;letter-spacing:0.22em;text-transform:uppercase;
+  color:var(--rose2);margin-bottom:1.75rem;font-weight:500;
+}
+.hero-eyebrow-dot{width:5px;height:5px;border-radius:50%;background:var(--rose2);}
+.hero-name{
+  font-family:'Playfair Display',serif;
+  font-size:clamp(3.2rem,6vw,5.5rem);
+  font-weight:700;line-height:1;
+  color:#fff;margin-bottom:0.6rem;
+  white-space:nowrap;
+}
+.hero-name em{color:var(--rose2);font-style:italic;font-weight:400;}
+.hero-title{
+  font-size:1rem;color:rgba(255,255,255,0.45);
+  letter-spacing:0.08em;margin-bottom:1.75rem;
+  font-weight:300;text-transform:uppercase;
+}
+.hero-desc{
+  font-size:1.05rem;line-height:1.8;
+  color:rgba(255,255,255,0.6);
+  max-width:520px;margin-bottom:2.5rem;font-weight:300;
+}
+.hero-desc strong{color:rgba(255,255,255,0.9);font-weight:500;}
+.hero-actions{display:flex;gap:1rem;flex-wrap:wrap;margin-bottom:3rem;}
+.btn-hero{
+  background:var(--rose);color:#fff;
+  padding:0.9rem 2.2rem;font-size:0.82rem;
+  letter-spacing:0.1em;text-transform:uppercase;font-weight:500;
+  text-decoration:none;border:none;cursor:pointer;
+  transition:background 0.25s,transform 0.2s;
+  display:inline-flex;align-items:center;gap:0.5rem;
+}
+.btn-hero:hover{background:var(--rose2);transform:translateY(-2px);}
+.btn-ghost{
+  border:1px solid rgba(255,255,255,0.15);
+  color:rgba(255,255,255,0.7);
+  padding:0.9rem 2.2rem;font-size:0.82rem;
+  letter-spacing:0.1em;text-transform:uppercase;
+  text-decoration:none;transition:border-color 0.25s,color 0.25s;
+  display:inline-flex;align-items:center;gap:0.5rem;
+}
+.btn-ghost:hover{border-color:var(--rose2);color:var(--rose2);}
+.hero-pills{display:flex;flex-wrap:wrap;gap:0.5rem;}
+.hero-pill{
+  font-size:0.7rem;letter-spacing:0.1em;text-transform:uppercase;
+  padding:0.35rem 0.9rem;
+  border:1px solid rgba(192,57,43,0.3);
+  color:rgba(255,255,255,0.45);
+  font-weight:400;
+}
+
+/* HERO RIGHT */
+.hero-right{display:flex;flex-direction:column;gap:1.5rem;align-items:flex-end;}
+.hero-card{
+  background:rgba(255,255,255,0.03);
+  border:1px solid rgba(255,255,255,0.06);
+  padding:1.5rem 2rem;width:100%;
+  position:relative;overflow:hidden;
+}
+.hero-card::before{
+  content:'';position:absolute;top:0;left:0;
+  width:3px;height:100%;background:var(--rose);
+}
+.hc-label{
+  font-size:0.65rem;letter-spacing:0.18em;text-transform:uppercase;
+  color:var(--rose2);margin-bottom:0.5rem;font-weight:500;
+}
+.hc-val{
+  font-family:'Playfair Display',serif;
+  font-size:2.4rem;font-weight:700;color:#fff;line-height:1;
+}
+.hc-sub{font-size:0.82rem;color:rgba(255,255,255,0.45);margin-top:0.3rem;}
+.hero-cards-row{display:grid;grid-template-columns:1fr 1fr;gap:1rem;width:100%;}
+.hero-card-sm{
+  background:rgba(255,255,255,0.03);
+  border:1px solid rgba(255,255,255,0.06);
+  padding:1.25rem 1.5rem;
+}
+.hcs-label{font-size:0.62rem;letter-spacing:0.15em;text-transform:uppercase;color:var(--rose2);margin-bottom:0.35rem;}
+.hcs-val{font-family:'Playfair Display',serif;font-size:1.8rem;font-weight:700;color:#fff;line-height:1;}
+.hcs-sub{font-size:0.75rem;color:rgba(255,255,255,0.4);margin-top:0.2rem;}
+.hero-location{
+  display:flex;align-items:center;gap:0.6rem;
+  font-size:0.78rem;color:rgba(255,255,255,0.35);
+  letter-spacing:0.08em;
+}
+.hero-location i{color:var(--rose);font-size:0.75rem;}
+
+/* ── MARQUEE ── */
+.marquee-wrap{
+  background:var(--ink);
+  padding:0.75rem 0;overflow:hidden;
+}
+.marquee-track{
+  display:flex;gap:0;
+  animation:marquee 28s linear infinite;
+  white-space:nowrap;
+}
+.marquee-item{
+  font-size:0.7rem;letter-spacing:0.18em;text-transform:uppercase;
+  color:rgba(255,255,255,0.85);font-weight:500;
+  padding:0 2.5rem;
+  border-right:1px solid rgba(255,255,255,0.12);
+}
+@keyframes marquee{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+
+/* ── SECTIONS ── */
+section{padding:7rem 3rem;}
+.section-inner{max-width:1200px;margin:0 auto;}
+.s-label{
+  font-size:0.68rem;letter-spacing:0.22em;text-transform:uppercase;
+  color:var(--rose);margin-bottom:0.6rem;font-weight:500;
+  display:flex;align-items:center;gap:0.6rem;
+}
+.s-label::before{content:'';width:20px;height:1px;background:var(--rose);}
+h2{
+  font-family:'Playfair Display',serif;
+  font-size:clamp(2rem,4vw,3rem);
+  font-weight:700;line-height:1.08;
+  color:var(--ink);margin-bottom:3.5rem;
+}
+h2 em{color:var(--rose);font-style:italic;}
+
+/* ── ABOUT ── */
+.about-section{background:var(--white);}
+.about-grid{display:grid;grid-template-columns:1fr 1.5fr;gap:6rem;align-items:start;}
+.about-body{font-size:1.05rem;line-height:1.9;color:#444;margin-bottom:1.5rem;}
+.about-body strong{color:var(--ink);font-weight:600;}
+.about-link{
+  display:inline-flex;align-items:center;gap:0.5rem;
+  font-size:0.8rem;letter-spacing:0.1em;text-transform:uppercase;
+  color:var(--rose);font-weight:500;text-decoration:none;
+  border-bottom:1px solid var(--rose);padding-bottom:2px;
+  margin-top:1rem;transition:gap 0.2s;
+}
+.about-link:hover{gap:0.9rem;}
+.about-cards{display:flex;flex-direction:column;gap:1px;background:var(--sand2);}
+.ab-card{
+  background:var(--white);padding:1.5rem 2rem;
+  display:grid;grid-template-columns:48px 1fr;gap:1.25rem;
+  align-items:start;transition:background 0.2s;
+}
+.ab-card:hover{background:var(--rose-pale);}
+.ab-icon{
+  width:48px;height:48px;
+  background:var(--ink);
+  display:flex;align-items:center;justify-content:center;
+  color:var(--rose2);font-size:1rem;flex-shrink:0;
+}
+.ab-title{font-size:0.9rem;font-weight:600;color:var(--ink);margin-bottom:0.35rem;}
+.ab-text{font-size:0.85rem;line-height:1.55;color:var(--muted);}
+
+/* ── EXPERIENCE ── */
+.exp-section{background:var(--sand);}
+.exp-layout{display:grid;grid-template-columns:280px 1fr;gap:4rem;align-items:start;}
+.exp-nav{position:sticky;top:80px;}
+.exp-nav-item{
+  padding:0.75rem 1rem;
+  font-size:0.8rem;color:var(--muted);
+  cursor:pointer;border-left:2px solid var(--sand2);
+  transition:all 0.2s;line-height:1.4;
+}
+.exp-nav-item:hover,.exp-nav-item.active{
+  border-left-color:var(--rose);
+  color:var(--ink);background:var(--white);
+}
+.exp-nav-role{font-weight:500;font-size:0.82rem;}
+.exp-nav-co{font-size:0.72rem;color:var(--light);}
+.exp-list{display:flex;flex-direction:column;gap:2px;background:var(--sand2);}
+.exp-card{
+  background:var(--white);padding:2rem 2.5rem;
+  border-left:3px solid transparent;
+  transition:border-color 0.2s;
+}
+.exp-card:hover{border-left-color:var(--rose);}
+.exp-meta{
+  display:flex;align-items:center;gap:1rem;
+  margin-bottom:1rem;flex-wrap:wrap;
+}
+.exp-period{
+  font-size:0.7rem;letter-spacing:0.12em;text-transform:uppercase;
+  color:var(--rose);font-weight:500;
+  background:var(--rose-pale);padding:0.3rem 0.8rem;
+}
+.exp-location{font-size:0.75rem;color:var(--light);}
+.exp-role{
+  font-family:'Playfair Display',serif;
+  font-size:1.4rem;font-weight:700;
+  color:var(--ink);margin-bottom:0.25rem;
+}
+.exp-company{font-size:0.88rem;color:var(--muted);margin-bottom:1.25rem;}
+.exp-points{list-style:none;display:flex;flex-direction:column;gap:0.65rem;}
+.exp-points li{
+  font-size:0.9rem;line-height:1.65;color:#444;
+  padding-left:1.5rem;position:relative;
+}
+.exp-points li::before{
+  content:'▸';position:absolute;left:0;
+  color:var(--rose);font-size:0.75rem;top:3px;
+}
+.exp-points li strong{color:var(--ink);font-weight:600;}
+.exp-chips{display:flex;flex-wrap:wrap;gap:0.4rem;margin-top:1.25rem;}
+.chip{
+  font-size:0.68rem;letter-spacing:0.08em;text-transform:uppercase;
+  padding:0.28rem 0.75rem;
+  background:var(--sand);border:1px solid var(--border2);
+  color:var(--muted);font-weight:500;
+}
+
+/* ── SKILLS ── */
+.skills-section{background:var(--ink);}
+.skills-section h2{color:#fff;}
+.skills-section .s-label{color:var(--rose2);}
+.skills-section .s-label::before{background:var(--rose2);}
+.skills-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:1px;background:rgba(255,255,255,0.04);}
+.sk-card{
+  background:var(--ink2);padding:2rem;
+  transition:background 0.2s;
+}
+.sk-card:hover{background:#222;}
+.sk-icon{font-size:1.5rem;color:var(--rose2);margin-bottom:1.25rem;}
+.sk-title{
+  font-size:0.7rem;letter-spacing:0.16em;text-transform:uppercase;
+  color:var(--rose);margin-bottom:1.25rem;font-weight:500;
+}
+.sk-items{display:flex;flex-direction:column;gap:0.6rem;}
+.sk-item{
+  display:flex;align-items:center;justify-content:space-between;
+  padding-bottom:0.6rem;border-bottom:1px solid rgba(255,255,255,0.04);
+}
+.sk-item:last-child{border:none;padding:0;}
+.sk-name{font-size:0.85rem;color:rgba(255,255,255,0.7);}
+.sk-bar-wrap{width:80px;height:3px;background:rgba(255,255,255,0.08);}
+.sk-bar{height:100%;background:var(--rose);}
+
+/* ── EDUCATION ── */
+.edu-section{background:var(--white);}
+.edu-list{display:flex;flex-direction:column;gap:1px;background:var(--sand2);}
+.edu-card{
+  background:var(--white);
+  display:grid;grid-template-columns:120px 1fr;
+  gap:0;
+}
+.edu-year-col{
+  background:var(--ink);padding:2rem;
+  display:flex;flex-direction:column;align-items:center;justify-content:center;
+  text-align:center;
+}
+.edu-yr{
+  font-family:'Playfair Display',serif;
+  font-size:1.6rem;font-weight:700;color:var(--rose2);line-height:1;
+}
+.edu-yr2{font-size:0.75rem;color:rgba(255,255,255,0.35);margin-top:0.3rem;}
+.edu-body{padding:2rem 2.5rem;}
+.edu-degree{
+  font-family:'Playfair Display',serif;
+  font-size:1.25rem;font-weight:700;color:var(--ink);
+  margin-bottom:0.25rem;
+}
+.edu-school{font-size:0.88rem;color:var(--muted);margin-bottom:0.75rem;}
+.edu-badge{
+  display:inline-block;
+  font-size:0.7rem;letter-spacing:0.08em;text-transform:uppercase;
+  padding:0.25rem 0.75rem;
+  background:var(--rose-pale);color:var(--rose);
+  font-weight:500;margin-bottom:0.75rem;
+}
+.edu-subjects{font-size:0.82rem;color:var(--muted);line-height:1.7;}
+
+/* ── CERTS ── */
+.certs-section{background:var(--sand);}
+.cert-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:1px;background:var(--sand2);}
+.cert-card{
+  background:var(--white);padding:1.75rem 2rem;
+  display:flex;align-items:flex-start;gap:1.25rem;
+  transition:background 0.2s;
+}
+.cert-card:hover{background:var(--rose-pale);}
+.cert-num{
+  font-family:'Playfair Display',serif;
+  font-size:1.8rem;font-weight:700;
+  color:var(--rose-mid);line-height:1;flex-shrink:0;min-width:36px;
+}
+.cert-title{font-size:0.9rem;font-weight:600;color:var(--ink);margin-bottom:0.2rem;}
+.cert-issuer{font-size:0.78rem;color:var(--muted);}
+
+/* ── CONTACT ── */
+.contact-section{background:var(--ink);}
+.contact-section h2{color:#fff;}
+.contact-section .s-label{color:var(--rose2);}
+.contact-section .s-label::before{background:var(--rose2);}
+.contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:4rem;align-items:start;}
+.contact-intro{font-size:1.05rem;line-height:1.8;color:rgba(255,255,255,0.55);margin-bottom:2rem;font-weight:300;}
+.contact-items{display:flex;flex-direction:column;gap:1rem;}
+.c-item{
+  display:flex;align-items:center;gap:1rem;
+  text-decoration:none;color:rgba(255,255,255,0.65);
+  font-size:0.9rem;padding:1rem 1.25rem;
+  border:1px solid rgba(255,255,255,0.05);
+  transition:all 0.2s;
+}
+.c-item:hover{border-color:rgba(192,57,43,0.4);color:var(--rose2);}
+.c-item i{color:var(--rose);width:18px;text-align:center;}
+.open-panel{background:rgba(255,255,255,0.03);border:1px solid rgba(255,255,255,0.06);padding:2.5rem;}
+.op-title{
+  font-family:'Playfair Display',serif;
+  font-size:1.5rem;color:#fff;margin-bottom:0.5rem;
+}
+.op-sub{font-size:0.85rem;color:rgba(255,255,255,0.4);margin-bottom:2rem;line-height:1.6;}
+.op-badges{display:flex;flex-direction:column;gap:0.6rem;margin-bottom:2.5rem;}
+.op-badge{
+  display:flex;align-items:center;gap:0.75rem;
+  font-size:0.8rem;letter-spacing:0.08em;text-transform:uppercase;
+  color:rgba(255,255,255,0.6);padding:0.65rem 1rem;
+  border:1px solid rgba(255,255,255,0.07);
+}
+.op-dot{width:6px;height:6px;border-radius:50%;background:#4ADE80;flex-shrink:0;}
+
+/* ── FOOTER ── */
+footer{
+  background:#080808;
+  padding:1.5rem 3rem;
+  display:flex;justify-content:space-between;align-items:center;
+  flex-wrap:wrap;gap:1rem;
+}
+.footer-name{
+  font-family:'Playfair Display',serif;
+  font-size:1rem;color:rgba(255,255,255,0.3);
+}
+.footer-copy{font-size:0.72rem;color:rgba(255,255,255,0.2);letter-spacing:0.08em;}
+
+/* ── ANIMATIONS ── */
+@keyframes fadeUp{from{opacity:0;transform:translateY(28px)}to{opacity:1;transform:translateY(0)}}
+.hero-eyebrow{opacity:0;animation:fadeUp 0.6s ease 0.1s forwards;}
+.hero-name{opacity:0;animation:fadeUp 0.6s ease 0.25s forwards;}
+.hero-title{opacity:0;animation:fadeUp 0.6s ease 0.35s forwards;}
+.hero-desc{opacity:0;animation:fadeUp 0.6s ease 0.45s forwards;}
+.hero-actions{opacity:0;animation:fadeUp 0.6s ease 0.55s forwards;}
+.hero-pills{opacity:0;animation:fadeUp 0.6s ease 0.65s forwards;}
+.hero-right{opacity:0;animation:fadeUp 0.8s ease 0.35s forwards;}
+
+/* ── MOBILE ── */
+@media(max-width:900px){
+  nav{padding:0 1.5rem;}
+  .nav-links,.nav-cta{display:none;}
+  .hero-inner{grid-template-columns:1fr;gap:3rem;}
+  .hero-right{align-items:stretch;}
+  .hero-name{white-space:normal;}
+  section{padding:4rem 1.5rem;}
+  .about-grid{grid-template-columns:1fr;gap:2.5rem;}
+  .exp-layout{grid-template-columns:1fr;}
+  .exp-nav{display:none;}
+  .contact-grid{grid-template-columns:1fr;gap:2.5rem;}
+  .edu-card{grid-template-columns:80px 1fr;}
+  footer{flex-direction:column;text-align:center;}
+}
+</style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <div class="nav-logo">Meera <span>Venu</span></div>
+  <ul class="nav-links">
+    <li><a href="#about">About</a></li>
+    <li><a href="#experience">Experience</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#education">Education</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+  <a href="mailto:meeravenu52@gmail.com" class="nav-cta">Hire Me</a>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-grid-bg"></div>
+  <div class="hero-glow"></div>
+  <div class="hero-glow2"></div>
+  <div class="hero-inner">
+    <div class="hero-left">
+      <div class="hero-eyebrow"><span class="hero-eyebrow-dot"></span> Digital Marketing · Operations · HR</div>
+      <h1 class="hero-name">Meera <em>Venu</em></h1>
+      <div class="hero-title">PGDM · Marketing &amp; Business Analytics · Google Ads Certified</div>
+      <p class="hero-desc">I help <strong>startups run smoother — from the inside out.</strong> Building CRM systems, running paid campaigns, coordinating talent, and keeping operations seamless while leadership focuses on growth.</p>
+      <div class="hero-actions">
+        <a href="mailto:meeravenu52@gmail.com" class="btn-hero"><i class="fa fa-envelope"></i> Get In Touch</a>
+        <a href="https://www.linkedin.com/in/meera-venu" target="_blank" class="btn-ghost"><i class="fab fa-linkedin"></i> LinkedIn</a>
+      </div>
+      <div class="hero-pills">
+        <span class="hero-pill">Meta Business Suite</span>
+        <span class="hero-pill">Google Ads</span>
+        <span class="hero-pill">Freshsales CRM</span>
+        <span class="hero-pill">Talent Acquisition</span>
+        <span class="hero-pill">Power BI</span>
+        <span class="hero-pill">Studio Operations</span>
+      </div>
+    </div>
+    <div class="hero-right">
+      <div class="hero-card">
+        <div class="hc-label">Apps Implemented From Scratch</div>
+        <div class="hc-val">2+</div>
+        <div class="hc-sub">Freshsales CRM · VirtuaGym · EMS Xperience</div>
+      </div>
+      <div class="hero-cards-row">
+        <div class="hero-card-sm">
+          <div class="hcs-label">Experience</div>
+          <div class="hcs-val">3+</div>
+          <div class="hcs-sub">Years across startups</div>
+        </div>
+        <div class="hero-card-sm">
+          <div class="hcs-label">Certifications</div>
+          <div class="hcs-val">6</div>
+          <div class="hcs-sub">Google · Knime · Marketing</div>
+        </div>
+      </div>
+      <div class="hero-card">
+        <div class="hc-label">Academic Score · 12th Grade</div>
+        <div class="hc-val">96%</div>
+        <div class="hc-sub">Commerce with Computer Science</div>
+      </div>
+      <div class="hero-location">
+        <i class="fa fa-map-marker-alt"></i> Trivandrum, Kerala, India · Open to Relocate
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- MARQUEE -->
+<div class="marquee-wrap" aria-hidden="true">
+  <div class="marquee-track">
+    <span class="marquee-item">Digital Marketing</span>
+    <span class="marquee-item">Meta Business Suite</span>
+    <span class="marquee-item">Google Ads Certified</span>
+    <span class="marquee-item">Talent Acquisition</span>
+    <span class="marquee-item">CRM Implementation</span>
+    <span class="marquee-item">Studio Operations</span>
+    <span class="marquee-item">CEO Support</span>
+    <span class="marquee-item">Lead Generation</span>
+    <span class="marquee-item">Power BI</span>
+    <span class="marquee-item">HR Operations</span>
+    <span class="marquee-item">Freshsales · Zoho</span>
+    <span class="marquee-item">Local SEO</span>
+    <span class="marquee-item">Digital Marketing</span>
+    <span class="marquee-item">Meta Business Suite</span>
+    <span class="marquee-item">Google Ads Certified</span>
+    <span class="marquee-item">Talent Acquisition</span>
+    <span class="marquee-item">CRM Implementation</span>
+    <span class="marquee-item">Studio Operations</span>
+    <span class="marquee-item">CEO Support</span>
+    <span class="marquee-item">Lead Generation</span>
+    <span class="marquee-item">Power BI</span>
+    <span class="marquee-item">HR Operations</span>
+    <span class="marquee-item">Freshsales · Zoho</span>
+    <span class="marquee-item">Local SEO</span>
+  </div>
+</div>
+
+<!-- ABOUT -->
+<section class="about-section" id="about">
+  <div class="section-inner">
+    <div class="about-grid">
+      <div>
+        <div class="s-label">About Me</div>
+        <h2>One person.<br><em>Many</em> capabilities.</h2>
+        <p class="about-body">With a <strong>PGDM in Marketing & Business Analytics</strong> and 3+ years of hands-on experience in startup environments, I'm the person who makes things happen — across digital marketing, HR, and operations — all at once.</p>
+        <p class="about-body">I've built CRM systems from zero, managed Meta and Google Ads campaigns end-to-end, coordinated full-cycle recruitment, and supported CEOs directly on strategy and execution. I don't just manage processes — I <strong>build them</strong>.</p>
+        <a href="mailto:meeravenu52@gmail.com" class="about-link">Let's Connect <i class="fa fa-arrow-right"></i></a>
+      </div>
+      <div class="about-cards">
+        <div class="ab-card">
+          <div class="ab-icon"><i class="fa fa-bullhorn"></i></div>
+          <div>
+            <div class="ab-title">Digital Marketing & CRM</div>
+            <div class="ab-text">Meta Business Suite · Google Ads · Local SEO · Freshsales CRM from inception · VirtuaGym implementation · Lead generation & nurturing</div>
+          </div>
+        </div>
+        <div class="ab-card">
+          <div class="ab-icon"><i class="fa fa-cogs"></i></div>
+          <div>
+            <div class="ab-title">Operations & Executive Support</div>
+            <div class="ab-text">Studio management · CEO assistance · Franchise setup · Calendar coordination · Process optimisation · Operational reporting & MIS</div>
+          </div>
+        </div>
+        <div class="ab-card">
+          <div class="ab-icon"><i class="fa fa-users"></i></div>
+          <div>
+            <div class="ab-title">HR & Talent Acquisition</div>
+            <div class="ab-text">Full-cycle recruitment · Candidate sourcing & screening · Interview scheduling · Onboarding & induction · Workforce coordination</div>
+          </div>
+        </div>
+        <div class="ab-card">
+          <div class="ab-icon"><i class="fa fa-chart-bar"></i></div>
+          <div>
+            <div class="ab-title">Analytics & Business Intelligence</div>
+            <div class="ab-text">Power BI · Google Analytics · Excel · MySQL · Python · Knime · Data-driven decision making & campaign performance reporting</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- EXPERIENCE -->
+<section class="exp-section" id="experience">
+  <div class="section-inner">
+    <div class="s-label">Career Journey</div>
+    <h2>Where I've built<br>my <em>expertise</em></h2>
+    <div class="exp-layout">
+      <div class="exp-nav">
+        <div class="exp-nav-item active">
+          <div class="exp-nav-role">Client Relationship Manager</div>
+          <div class="exp-nav-co">EMS Xperience · 2025–Present</div>
+        </div>
+        <div class="exp-nav-item">
+          <div class="exp-nav-role">Assistant Centre Manager</div>
+          <div class="exp-nav-co">The Little Gym · 2025</div>
+        </div>
+        <div class="exp-nav-item">
+          <div class="exp-nav-role">Customer Success Intern</div>
+          <div class="exp-nav-co">DashLoc · 2024</div>
+        </div>
+        <div class="exp-nav-item">
+          <div class="exp-nav-role">Inside Sales Intern</div>
+          <div class="exp-nav-co">ClearTax · 2024</div>
+        </div>
+        <div class="exp-nav-item">
+          <div class="exp-nav-role">Strategy & Ops Consultant</div>
+          <div class="exp-nav-co">JMS Brush Mats · 2020–23</div>
+        </div>
+      </div>
+      <div class="exp-list">
+
+        <div class="exp-card">
+          <div class="exp-meta">
+            <span class="exp-period">Jul 2025 — Present</span>
+            <span class="exp-location"><i class="fa fa-map-marker-alt" style="color:var(--rose);margin-right:4px;font-size:0.7rem;"></i>Bangalore · On-site</span>
+          </div>
+          <div class="exp-role">Client Relationship Manager</div>
+          <div class="exp-company">EMS Xperience · Full-time</div>
+          <ul class="exp-points">
+            <li>Implemented <strong>Freshsales CRM from scratch</strong> — data migration, pipeline setup, workflow automation, and full team onboarding reducing admin turnaround significantly</li>
+            <li>Managed <strong>Meta Business Suite & Google Ads</strong> campaigns for brand awareness, lead generation, and local SEO via Google Business Profile</li>
+            <li>Set up and configured <strong>VirtuaGym platform</strong> from inception including system integration, process mapping, and user adoption</li>
+            <li>Supported CEO directly on <strong>franchise setup, rebranding,</strong> and execution of strategic business plans</li>
+            <li>Led <strong>full-cycle talent acquisition</strong> — sourcing, screening, interview scheduling, onboarding, and induction of staff and trainers</li>
+            <li>Oversaw <strong>end-to-end studio operations</strong> — scheduling, resource allocation, cross-team coordination, and MIS reporting</li>
+          </ul>
+          <div class="exp-chips">
+            <span class="chip">CRM Implementation</span><span class="chip">Meta Ads</span><span class="chip">Google Ads</span>
+            <span class="chip">Local SEO</span><span class="chip">Talent Acquisition</span><span class="chip">Studio Ops</span><span class="chip">CEO Support</span>
+          </div>
+        </div>
+
+        <div class="exp-card">
+          <div class="exp-meta">
+            <span class="exp-period">Mar 2025 — Jun 2025</span>
+            <span class="exp-location"><i class="fa fa-map-marker-alt" style="color:var(--rose);margin-right:4px;font-size:0.7rem;"></i>Bangalore · On-site</span>
+          </div>
+          <div class="exp-role">Assistant Centre Manager</div>
+          <div class="exp-company">The Little Gym India · Full-time</div>
+          <ul class="exp-points">
+            <li>Supervised <strong>trainer scheduling, performance tracking,</strong> and daily centre operations to ensure service excellence</li>
+            <li>Prepared <strong>employee and operational reports</strong> using Excel and Zoho analytics to support management decisions</li>
+            <li>Drove <strong>new enrolments</strong> through consultative client communication and structured follow-up processes</li>
+            <li>Strengthened <strong>client retention</strong> through proactive relationship management and prompt issue resolution</li>
+          </ul>
+          <div class="exp-chips">
+            <span class="chip">Centre Operations</span><span class="chip">Team Management</span><span class="chip">Excel</span><span class="chip">Zoho</span><span class="chip">Client Retention</span>
+          </div>
+        </div>
+
+        <div class="exp-card">
+          <div class="exp-meta">
+            <span class="exp-period">Oct 2024 — Nov 2024</span>
+            <span class="exp-location"><i class="fa fa-map-marker-alt" style="color:var(--rose);margin-right:4px;font-size:0.7rem;"></i>Bangalore · On-site</span>
+          </div>
+          <div class="exp-role">Customer Success Intern</div>
+          <div class="exp-company">DashLoc — Gen AI Hyperlocal Platform · Internship</div>
+          <ul class="exp-points">
+            <li>Managed <strong>customer onboarding and engagement</strong> workflows ensuring smooth platform adoption</li>
+            <li>Improved client brand visibility through <strong>organic listing optimisation</strong> and Google Business Profile best practices</li>
+            <li>Leveraged <strong>Google Analytics insights</strong> to track performance and support client reporting</li>
+          </ul>
+          <div class="exp-chips">
+            <span class="chip">Customer Onboarding</span><span class="chip">Google Analytics</span><span class="chip">Local SEO</span><span class="chip">Organic Listings</span>
+          </div>
+        </div>
+
+        <div class="exp-card">
+          <div class="exp-meta">
+            <span class="exp-period">May 2024 — Jul 2024</span>
+            <span class="exp-location"><i class="fa fa-map-marker-alt" style="color:var(--rose);margin-right:4px;font-size:0.7rem;"></i>Bangalore · On-site</span>
+          </div>
+          <div class="exp-role">Inside Sales Representative</div>
+          <div class="exp-company">ClearTax · Internship</div>
+          <ul class="exp-points">
+            <li>Achieved <strong>200% of assigned sales targets</strong> through consultative selling and strong client communication</li>
+            <li>Used <strong>CRM and lead generation tools</strong> to identify, qualify, and convert B2B and B2C prospects</li>
+          </ul>
+          <div class="exp-chips">
+            <span class="chip">Inside Sales</span><span class="chip">CRM</span><span class="chip">Lead Generation</span><span class="chip">200% Target</span>
+          </div>
+        </div>
+
+        <div class="exp-card">
+          <div class="exp-meta">
+            <span class="exp-period">Jun 2020 — May 2023</span>
+            <span class="exp-location"><i class="fa fa-map-marker-alt" style="color:var(--rose);margin-right:4px;font-size:0.7rem;"></i>Kerala · Hybrid</span>
+          </div>
+          <div class="exp-role">Business Strategy & Operations Consultant</div>
+          <div class="exp-company">JMS Brush Mats · Part-time</div>
+          <ul class="exp-points">
+            <li>Developed <strong>sales and marketing strategies</strong> identifying new B2B buyers and suppliers during the pandemic</li>
+            <li>Conducted <strong>market research and competitor analysis</strong> to optimise pricing and procurement channels</li>
+            <li>Built and maintained <strong>domestic and international B2B relationships,</strong> expanding the client base</li>
+            <li>Led <strong>digital transformation</strong> of sales operations through virtual meetings and email campaigns during COVID-19</li>
+          </ul>
+          <div class="exp-chips">
+            <span class="chip">B2B Strategy</span><span class="chip">Market Research</span><span class="chip">Operations</span><span class="chip">Digital Transformation</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section class="skills-section" id="skills">
+  <div class="section-inner">
+    <div class="s-label">Capabilities</div>
+    <h2>Skills &amp; <em>Tools</em></h2>
+    <div class="skills-grid">
+      <div class="sk-card">
+        <div class="sk-icon"><i class="fa fa-bullhorn"></i></div>
+        <div class="sk-title">Digital Marketing</div>
+        <div class="sk-items">
+          <div class="sk-item"><span class="sk-name">Meta Business Suite</span><div class="sk-bar-wrap"><div class="sk-bar" style="width:90%"></div></div></div>
+          <div class="sk-item"><span class="sk-name">Google Ads (Certified)</span><div class="sk-bar-wrap"><div class="sk-bar" style="width:88%"></div></div></div>
+          <div class="sk-item"><span class="sk-name">Google Business Profile</span><div class="sk-bar-wrap"><div class="sk-bar" style="width:92%"></div></div></div>
+          <div class="sk-item"><span class="sk-name">Local SEO</span><div class="sk-bar-wrap"><div class="sk-bar" style="width:85%"></div></div></div>
+          <div class="sk-item"><span class="sk-name">Lead Generation</span><div class="sk-bar-wrap"><div class="sk-bar" style="width:87%"></div></div></div>
+          <div class="sk-item"><span class="sk-name">Email Marketing</span><div class="sk-bar-wrap"><div class="sk-bar" style="width:80%"></div></div></div>
+        </div>
+      </div>
+      <div class="sk-card">
+        <div class="sk-icon"><i class="fa fa-cogs"></i></div>
+        <div class="sk-title">Operations & Support</div>
+        <div class="sk-items">
+          <div class="sk-item"><span class="sk-name">Studio Management</span><div class="sk-bar-wrap"><div class="sk-bar" style="width:92%"></div></div></div>
+          <div class="sk-item"><span class="sk-name">CEO & Executive Support</span><div class="sk-bar-wrap"><div class="sk-bar" style="width:90%"></div></div></div>
+          <div class="sk-item"><span class="sk-name">Franchise Setup</span><div class="sk-bar-wrap"><div class="sk-bar" style="width:85%"></div></div></div>
+          <div class="sk-item"><span class="sk-name">Calendar Management</span><div class="sk-bar-wrap"><div class="sk-bar" style="width:95%"></div></div></div>
+          <div class="sk-item"><span class="sk-name">Process Optimisation</span><div class="sk-bar-wrap"><div class="sk-bar" style="width:87%"></div></div></div>
+          <div class="sk-item"><span class="sk-name">MIS Reporting</span><div class="sk-bar-wrap"><div class="sk-bar" style="width:88%"></div></div></div>
+        </div>
+      </div>
+      <div class="sk-card">
+        <div class="sk-icon"><i class="fa fa-users"></i></div>
+        <div class="sk-title">HR & Talent</div>
+        <div class="sk-items">
+          <div class="sk-item"><span class="sk-name">Talent Acquisition</span><div class="sk-bar-wrap"><div class="sk-bar" style="width:88%"></div></div></div>
+          <div class="sk-item"><span class="sk-name">Recruitment Coordination</span><div class="sk-bar-wrap"><div class="sk-bar" style="width:85%"></div></div></div>
+          <div class="sk-item"><span class="sk-name">Onboarding & Induction</span><div class="sk-bar-wrap"><div class="sk-bar" style="width:90%"></div></div></div>
+          <div class="sk-item"><span class="sk-name">Workforce Planning</span><div class="sk-bar-wrap"><div class="sk-bar" style="width:82%"></div></div></div>
+          <div class="sk-item"><span class="sk-name">Performance Tracking</span><div class="sk-bar-wrap"><div class="sk-bar" style="width:85%"></div></div></div>
+          <div class="sk-item"><span class="sk-name">HRMS / CRM Mgmt</span><div class="sk-bar-wrap"><div class="sk-bar" style="width:87%"></div></div></div>
+        </div>
+      </div>
+      <div class="sk-card">
+        <div class="sk-icon"><i class="fa fa-chart-line"></i></div>
+        <div class="sk-title">Analytics & Tools</div>
+        <div class="sk-items">
+          <div class="sk-item"><span class="sk-name">Power BI</span><div class="sk-bar-wrap"><div class="sk-bar" style="width:83%"></div></div></div>
+          <div class="sk-item"><span class="sk-name">Excel (Advanced)</span><div class="sk-bar-wrap"><div class="sk-bar" style="width:92%"></div></div></div>
+          <div class="sk-item"><span class="sk-name">Google Analytics</span><div class="sk-bar-wrap"><div class="sk-bar" style="width:87%"></div></div></div>
+          <div class="sk-item"><span class="sk-name">Freshsales · Zoho CRM</span><div class="sk-bar-wrap"><div class="sk-bar" style="width:90%"></div></div></div>
+          <div class="sk-item"><span class="sk-name">MySQL & Python</span><div class="sk-bar-wrap"><div class="sk-bar" style="width:75%"></div></div></div>
+          <div class="sk-item"><span class="sk-name">Knime Analytics</span><div class="sk-bar-wrap"><div class="sk-bar" style="width:78%"></div></div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- EDUCATION -->
+<section class="edu-section" id="education">
+  <div class="section-inner">
+    <div class="s-label">Education</div>
+    <h2>Academic <em>Foundation</em></h2>
+    <div class="edu-list">
+      <div class="edu-card">
+        <div class="edu-year-col">
+          <div class="edu-yr">2025</div>
+          <div class="edu-yr2">2023–2025</div>
+        </div>
+        <div class="edu-body">
+          <div class="edu-degree">PGDM — Marketing & Business Analytics</div>
+          <div class="edu-school">ISBR Business School, Bangalore</div>
+          <span class="edu-badge">77% · Distinction</span>
+          <div class="edu-subjects">Digital Marketing Strategy · Business Analytics · Power BI · Consumer Behaviour · Campaign Planning · Organisational Leadership · Marketing Research</div>
+        </div>
+      </div>
+      <div class="edu-card">
+        <div class="edu-year-col">
+          <div class="edu-yr">2023</div>
+          <div class="edu-yr2">2020–2023</div>
+        </div>
+        <div class="edu-body">
+          <div class="edu-degree">B.Com — Finance & Taxation</div>
+          <div class="edu-school">Rajagiri College of Management & Applied Sciences, Kochi</div>
+          <span class="edu-badge">73%</span>
+          <div class="edu-subjects">Financial Accounting · GST & Taxation · Corporate Finance · Business Law · Cost Accounting · MIS Reporting</div>
+        </div>
+      </div>
+      <div class="edu-card">
+        <div class="edu-year-col">
+          <div class="edu-yr">2020</div>
+          <div class="edu-yr2">2018–2020</div>
+        </div>
+        <div class="edu-body">
+          <div class="edu-degree">HSC — Commerce with Computer Science</div>
+          <div class="edu-school">S N D P Higher Secondary School, Ernakulam</div>
+          <span class="edu-badge">96% · Top Percentile</span>
+          <div class="edu-subjects">Accountancy · Business Studies · Economics · Computer Applications · Commerce Fundamentals</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CERTIFICATIONS -->
+<section class="certs-section" id="certifications">
+  <div class="section-inner">
+    <div class="s-label">Credentials</div>
+    <h2>Certifications &amp; <em>Courses</em></h2>
+    <div class="cert-grid">
+      <div class="cert-card">
+        <div class="cert-num">01</div>
+        <div>
+          <div class="cert-title">Google Search Ads</div>
+          <div class="cert-issuer">Google · 2024 · Certified</div>
+        </div>
+      </div>
+      <div class="cert-card">
+        <div class="cert-num">02</div>
+        <div>
+          <div class="cert-title">Digital Marketing & ChatGPT 101</div>
+          <div class="cert-issuer">2024</div>
+        </div>
+      </div>
+      <div class="cert-card">
+        <div class="cert-num">03</div>
+        <div>
+          <div class="cert-title">Management Consulting</div>
+          <div class="cert-issuer">2024 · Certified</div>
+        </div>
+      </div>
+      <div class="cert-card">
+        <div class="cert-num">04</div>
+        <div>
+          <div class="cert-title">Branding & Customer Experience</div>
+          <div class="cert-issuer">2024</div>
+        </div>
+      </div>
+      <div class="cert-card">
+        <div class="cert-num">05</div>
+        <div>
+          <div class="cert-title">Fundamentals of Marketing Research</div>
+          <div class="cert-issuer">Infosys Springboard · 2024</div>
+        </div>
+      </div>
+      <div class="cert-card">
+        <div class="cert-num">06</div>
+        <div>
+          <div class="cert-title">Knime Analytics</div>
+          <div class="cert-issuer">2024 · Certified</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="contact-section" id="contact">
+  <div class="section-inner">
+    <div class="contact-grid">
+      <div>
+        <div class="s-label">Get In Touch</div>
+        <h2>Let's work <em>together</em></h2>
+        <p class="contact-intro">Open to roles in Digital Marketing, Operations, and HR — especially in startup or growth-stage environments where impact happens fast and every role counts.</p>
+        <div class="contact-items">
+          <a href="mailto:meeravenu52@gmail.com" class="c-item">
+            <i class="fa fa-envelope"></i> meeravenu52@gmail.com
+          </a>
+          <a href="https://www.linkedin.com/in/meera-venu" target="_blank" class="c-item">
+            <i class="fab fa-linkedin"></i> linkedin.com/in/meera-venu
+          </a>
+          <a href="tel:+917909154656" class="c-item">
+            <i class="fa fa-phone"></i> +91 79091 54656
+          </a>
+          <div class="c-item" style="cursor:default;">
+            <i class="fa fa-map-marker-alt"></i> Trivandrum, Kerala · Open to Relocate
+          </div>
+        </div>
+      </div>
+      <div class="open-panel">
+        <div class="op-title">Currently Open To</div>
+        <div class="op-sub">Looking for opportunities where I can drive growth across marketing, operations, and people — from day one.</div>
+        <div class="op-badges">
+          <div class="op-badge"><span class="op-dot"></span> Digital Marketing Manager / Executive</div>
+          <div class="op-badge"><span class="op-dot"></span> Operations Manager / EA Roles</div>
+          <div class="op-badge"><span class="op-dot"></span> HR & Talent Acquisition Roles</div>
+          <div class="op-badge"><span class="op-dot"></span> CRM & Marketing Ops Specialist</div>
+        </div>
+        <a href="mailto:meeravenu52@gmail.com" class="btn-hero" style="font-size:0.78rem;">
+          <i class="fa fa-paper-plane"></i> Send Me A Message
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="footer-name">Meera Venu</div>
+  <div class="footer-copy">© 2026 · Trivandrum, India · Digital Marketing · Operations · HR</div>
+</footer>
+
+</body>
+</html>
